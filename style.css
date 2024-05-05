@@ -218,7 +218,7 @@ main.row{
 .col .contents .box{
 	position: relative;
 	padding: 20px;
-	border: 1px solid #ad1b1b;
+	border: 1px solid #666;
 	background-color: #ffffff;
 	cursor: pointer;
 	transition: all 0.4s;
@@ -686,6 +686,11 @@ nav .fa-solid {
         border-right: 15px solid #ffffff;
         border-left: 0;
         left: -15px;
+    }
+
+    .skill-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding:  2rem 50px;
     }
 }
 
