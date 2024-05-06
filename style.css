@@ -187,8 +187,19 @@ nav ul li a:hover::after {
 
 /* -----------Work Experience-------------- */
 
+
+
 #experience {
+    width: 100%;
+	min-height: 100vh;
     margin-top: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#experience .container {
+    padding: 10px 10%;
 }
 
 main.row{
